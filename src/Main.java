@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
         BmiService service = new BmiService();
-        int mKg = 98;
-        double hm = 1.87;
-        int bmi = service.calculate(mKg, hm);
-        System.out.println(bmi);
+        int m = 98; // Килограмм ;
+        double h = 1.87; // Метров ;
+        int bmi = service.calculate(m, h);
+        System.out.println((bmi) + " индекс массы тела");
 
     }
 }
